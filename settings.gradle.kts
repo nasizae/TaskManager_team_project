@@ -1,3 +1,5 @@
+includeBuild("build-logic")
+
 pluginManagement {
     repositories {
         google()
@@ -17,4 +19,3 @@ rootProject.name = "TaskManager"
 include(":app")
 include(":Core")
 include(":Feature")
-include(":build-logic")

@@ -1,0 +1,6 @@
+[versions]
+kotlin = "1.8.0"
+appcompat = "1.7.0"
+[libraries]
+kotlin-android-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "kotlin" }
+android-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }

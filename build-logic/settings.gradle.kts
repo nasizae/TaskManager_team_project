@@ -1,8 +1,8 @@
-dependencyResolutionManagment{
-    versionCatalogs{
-        create("libs"){
-            from(files("../libs.toml"))
+dependencyResolutionManagement {
+    versionCatalogs {
+        create("libs") {
+            from(files("../gradle/libs.toml"))
         }
     }
 }
-rootProject.name="build-logic"
+rootProject.name = "build-logic"
