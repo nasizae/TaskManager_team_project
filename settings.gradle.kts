@@ -15,4 +15,6 @@ dependencyResolutionManagement {
 
 rootProject.name = "TaskManager"
 include(":app")
- 
+include(":Core")
+include(":Feature")
+include(":build-logic")
