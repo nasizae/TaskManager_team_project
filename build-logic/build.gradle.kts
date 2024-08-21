@@ -1,9 +1,17 @@
 plugins {
     `kotlin-dsl`
+    `kotlin-dsl-precompiled-script-plugins`
 }
-repositories{
+
+repositories {
+    google()
     mavenCentral()
+    gradlePluginPortal()
 }
-dependencies{
-    implementation(libs.kotlin.android.ktx)
+
+dependencies {
+    implementation(libs.androidGradlePlugin)
+    implementation(libs.kotlinGradlePlugin)
 }
+
+

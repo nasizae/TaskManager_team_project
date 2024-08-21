@@ -1,0 +1,26 @@
+[versions]
+kotlin = "2.0.0"
+agp="8.1.4"
+core_ktx="1.13.1"
+appcompat="1.7.0"
+android_material="1.12.0"
+junit="4.13.2"
+test_junit="1.2.1"
+esp_core="3.6.1"
+org-jetbrains-kotlin-jvm = "1.9.22"
+agp2 = "8.2.2"
+kotlin1922 = "1.9.22"
+
+[libraries]
+kotlinGradlePlugin = { module = "org.jetbrains.kotlin:kotlin-gradle-plugin", version.ref = "kotlin" }
+androidGradlePlugin = { module = "com.android.tools.build:gradle", version.ref = "agp" }
+core-ktx={group="androidx.core",name="core-ktx",version.ref="core_ktx"}
+appcompat={group="androidx.appcompat",name="appcompat",version.ref="appcompat"}
+amdroid_material={group="com.google.android.material",name="material",version.ref="android_material"}
+junit={group="junit",name="junit",version.ref="junit"}
+test_junit={group="androidx.test.ext",name="junit",version.ref="test_junit"}
+esp_core={group="androidx.test.espresso",name="espresso-core",version.ref="esp_core"}
+[plugins]
+org-jetbrains-kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "org-jetbrains-kotlin-jvm" }
+androidLibrary = { id = "com.android.library", version.ref = "agp2" }
+kotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin1922" }
